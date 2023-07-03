@@ -176,8 +176,8 @@ def start():
 #connecting to the database
 db = mysql.connector.connect(
   host ="localhost",
-  user ="root",
-  passwd ="sleep",
+  user ="rootuser",
+  passwd ="rootpassword",
   database="mydatabase"
 )
 mycur = db.cursor()
